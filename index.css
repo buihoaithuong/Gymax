@@ -1,0 +1,144 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    
+}
+
+/* HEADER */
+.header__content{
+    color: rgb(255, 255, 255);
+    
+}
+header{
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__top{
+    line-height: 1.75;
+    margin: 0 auto;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.header__top img{
+    margin-right: 90px;
+}
+.header__top .icons{
+    margin-left: 130px;
+}
+.header__top ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.header__top a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} 
+.header__top li{
+    display: inline;
+    padding: 0 25.5px;
+}
+.header__top i{
+    padding: 0 25.5px; 
+}
+.header__top .fa-shopping-basket{
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+}
+.header__content{
+    background-image: url(../img/images/banner.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    
+}
+.banner{
+    display: flex;
+    justify-content: center;   
+}
+.banner__content{
+    max-width: 1170px;
+    width: 100%;
+    margin: 188px 0 288px 0;
+}
+.banner__content h1{
+    font-size: 60px;
+    line-height: 1.2;
+    
+}
+.banner__content h2{
+    font-size: 40px;
+    line-height: 1.714;
+}
+.banner__content p{
+    max-width: 523px;
+    line-height: 1.714;
+    font-size: 14px;
+   
+}
+.banner__content button{
+    margin-top: 60px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding: 20px 45px;
+}
+
+/* CATEGORY */
+.category__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 1170px; */
+    
+    
+}
+.section__category__content{
+    margin-top: -75px;
+    max-width: 1170px;
+    width: 100%;
+}
+.category .content{
+    display: flex;
+    text-align: center;
+
+}
+.item__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 22px 50px;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+.content h3{
+    font-size: 18px;
+    margin: 18px;
+}
+.category img{
+    display: block;
+}
+.category__item{
+    background-color: white;
+    max-width: 390px;
+
+}
+
+
+/* PRODUCT */
